@@ -1,0 +1,7 @@
+var i=1;
+$('.card').on('click',function(){
+  var $container=$(this).parent();
+  $container.css("z-index", i++);
+  $(this).toggleClass('flipped');
+
+})
